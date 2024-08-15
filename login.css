@@ -17,6 +17,23 @@ body{
     align-items: center;
     border-radius: 20px;
 
-
-    
 }
+
+#Email{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(83, 83, 83);
+    border-width: 1px;
+    width: 80%;
+    height: 30px;
+  
+  }
+  #password{
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+      border: solid rgb(83, 83, 83);
+      border-width: 1px;
+      width: 80%;
+      height: 30px;
+      margin-top: 30px;
+  }
