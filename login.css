@@ -5,3 +5,18 @@ body{
     margin-top: 30vh;
     margin-left: 40%;
 }
+#conta{
+    color: #202020;
+    font-size: 20pt ;
+    font-family: sans-serif;
+    background-image: linear-gradient(#ffb0aef5, #cf7675fa); 
+    height: 300px;
+    width: 400px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+    
+}
