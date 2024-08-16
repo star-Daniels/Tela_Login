@@ -1,55 +1,70 @@
 body{
+    padding: 0;
+    margin: 0 auto;
     display: flex;
-    background-image: linear-gradient(100deg,#17072f, #2c1452);
+    background-image: url("backgroud.png    ");
     background-repeat: no-repeat ;
     background-size: 100% 145%;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     
 }
 #conta{
     color: #ffffff;
-    font-size: 20pt ;
-    font-family: sans-serif;
-    background-image: linear-gradient(110deg,#2C0751,#17072F);
-    height: 300px;
+    font-family: "Domine", serif;
+    background-image: linear-gradient(110deg,#2C0751,#190635,#2c0a5c);
+    height: 400px;
     width: 400px;
-    margin-top: 17%;
+    margin-top: 1%;
     margin-left: 40%;
     line-height: 10px;
-    text-align: center;
-    align-items: center;
-    border-radius: 20px;
+    
+    
+    border-radius: 45px;
 
+}
+#txt1{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+#txt2{
+    font-family: "Domine", serif;
+    margin-top: 7%;
+    margin-left: 20%;
 }
 
 #Email{
-    border-radius: 5px;
-    background-color: #1D083B;
+    border-radius: 25px;
+   background-image: linear-gradient(90deg,#230250,#170136,#230250);
     border: solid #535353;
     border-width: 0px;
     width: 80%;
-    height: 30px;
+    height: 45px;
+    margin-top: 0.2%;
+    margin-left: 10%;
   
   }
   #password{
-      border-radius: 5px;
-    background-color: #1D083B;
-
+      border-radius: 25px;
+      background-image: linear-gradient(90deg,#230250,#170136,#230250);
+    margin-left: 10%;
       border: solid #535353;
       border-width: 0px;
       width: 80%;
-      height: 30px;
-      margin-top: 30px;
+      height: 45px;
+      margin-top: 3px;
   }
 
   #button{
-   margin-top: 10%;
+    font-size: 20pt ;
+   margin-top: 15%;
    margin-left: 25%;
-    background-image: linear-gradient(90deg,#1D083B,#1C0752);
+    background-image: linear-gradient(90deg,#220946,#2b0b7c);
     width: 200px;
     height: 50px;
     text-align: center;
     line-height: 50px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
